@@ -64,3 +64,25 @@ Here is a<br />line break
 - GH-2
 - GH-3
 - GH-4
+
+## Link specific commits
+- 16edc0f
+- f1044395f4971f2ab9fe902c38969fe26bb20815
+- droubarka@f1044395f4971f2ab9fe902c38969fe26bb20815
+- droubarka/markdown@16edc0f
+
+## Mention users and teams
+@0xberka
+
+## Track task lists
+```
+- [x] First task
+- [x] Second task
+- [ ] Third task
+```
+- [x] First task
+- [x] Second task
+- [ ] Third task
+
+## Slash commands
+...
