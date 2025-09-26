@@ -1,21 +1,62 @@
 # Markdown
 
 ## Emphasize text
+## Declare headings
+## Link to images and sites
 ```
-This is *italic* text.
-This is also _italic_ text.
+![Link an image.](https://learn.microsoft.com/learn/azure-devops/shared/media/mara.png)
+[Link to Microsoft Training](/emphasize-text)
 ```
-> This is *italic* text.
-> This is also _italic_ text.
+![Link an image.](https://learn.microsoft.com/learn/azure-devops/shared/media/mara.png)
+[Emphasize Text](/emphasize-text)
+
+## Make lists
+```
+1. First
+2. Second
+3. Third
+```
+1. First
+2. Second
+3. Third
 
 ```
-_This is **italic and bold** text_ using a single underscore for italic and double asterisks for bold.
-__This is bold and *italic* text__ using double underscores for bold and single asterisks for italic.
+- First
+  - Nested
+- Second
+- Third
 ```
-> _This is **italic and bold** text_ using a single underscore for italic and double asterisks for bold.
-> __This is bold and *italic* text__ using double underscores for bold and single asterisks for italic.
+- First
+  - Nested
+- Second
+- Third
 
+## Build tables
 ```
-\_This is all \*\*plain\*\* text\_.
+First|Second
+-|-
+1|2
+3|4
 ```
-> \_This is all \*\*plain\*\* text\_.
+First|Second
+-|-
+1|2
+3|4
+
+## Quote text
+```
+> This is quoted text.
+```
+> This is quoted text.
+
+## Fill the gaps with inline HTML
+```
+Here is a<br />line break
+```
+Here is a<br />line break
+
+## Work with code
+## Cross-link issues and pull requests
+- desktop/desktop#21044
+- desktop/desktop#21040
+- #1 #2 #3 #4 #5 #6 #7 #8 #9 #10 #11
